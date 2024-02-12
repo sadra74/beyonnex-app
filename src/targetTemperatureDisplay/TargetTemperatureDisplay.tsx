@@ -26,7 +26,7 @@ const TargetTemperatureDisplay: React.FC<TargetTemperatureDisplayProps> = ({
     const percentage = ((currentTemp - minTemp) / (maxTemp - minTemp)) * 100;
 
     return (
-        <div className="parentStyle">
+        <div data-testid="target-temperature-display" className="parentStyle">
             <div className="clockStyle">
                 <div className="legStyle minLegStyle"></div>
                 <div className="legStyle maxLegStyle"></div>
