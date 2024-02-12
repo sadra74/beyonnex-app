@@ -10,7 +10,7 @@ function App() {
     return (
         <div className='container'>
             <div className="input-group">
-                <label htmlFor="minTemp">Min Temperature:</label>
+                <label htmlFor="minTemp" className={'min'}>Min Temperature:</label>
                 <input
                     type="number"
                     id="minTemp"
@@ -30,7 +30,7 @@ function App() {
                 />
             </div>
             <div className="input-group">
-                <label htmlFor="maxTemp">Max Temperature:</label>
+                <label htmlFor="maxTemp" className={'max'}>Max Temperature:</label>
                 <input
                     type="number"
                     id="maxTemp"

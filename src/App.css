@@ -15,3 +15,11 @@
 .temperature-display {
     margin-top: 20px;
 }
+
+.min {
+    color: red;
+}
+
+.max {
+    color: green;
+}
