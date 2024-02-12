@@ -1,5 +1,5 @@
 import React from 'react';
-import './targetTemperatureDisplay.css';
+import './TargetTemperatureDisplay.css';
 
 interface TargetTemperatureDisplayProps {
     minTemp?: number;
