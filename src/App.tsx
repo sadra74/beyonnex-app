@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import TargetTemperatureDisplay from "./targetTemperatureDisplay/TargetTemperatureDisplay";
+import TargetTemperatureDisplay from "./TargetTemperatureDisplay/TargetTemperatureDisplay";
 
 function App() {
     const [minTemp, setMinTemp] = useState(0);
