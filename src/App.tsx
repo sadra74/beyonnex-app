@@ -12,30 +12,33 @@ function App() {
             <div className="input-group">
                 <label htmlFor="minTemp" className={'min'}>Min Temperature:</label>
                 <input
+                    step={0.01}
                     type="number"
                     id="minTemp"
                     value={minTemp}
-                    onChange={(e) => setMinTemp(parseInt(e.target.value))}
+                    onChange={(e) => setMinTemp(parseFloat(e.target.value))}
                     placeholder="Enter min temperature"
                 />
             </div>
             <div className="input-group">
                 <label htmlFor="currentTemp">Current Temperature:</label>
                 <input
+                    step={0.01}
                     type="number"
                     id="currentTemp"
                     value={currentTemp}
-                    onChange={(e) => setCurrentTemp(parseInt(e.target.value))}
+                    onChange={(e) => setCurrentTemp(parseFloat(e.target.value))}
                     placeholder="Enter current temperature"
                 />
             </div>
             <div className="input-group">
                 <label htmlFor="maxTemp" className={'max'}>Max Temperature:</label>
                 <input
+                    step={0.01}
                     type="number"
                     id="maxTemp"
                     value={maxTemp}
-                    onChange={(e) => setMaxTemp(parseInt(e.target.value))}
+                    onChange={(e) => setMaxTemp(parseFloat(e.target.value))}
                     placeholder="Enter max temperature"
                 />
             </div>
